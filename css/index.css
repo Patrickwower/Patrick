@@ -1,0 +1,148 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { position: fixed; background: rgba(0,0,0,.93); font-size:14px; font-family: PingFangSC-Ultralight PingFangSC-Medium PingFangSC-Regular PingFangSC-Semibold; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+html {overflow-y: scroll;}
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+/* 初始化样式 */
+
+.no-support-message { display:none; }
+.impress-not-supported .no-support-message { display:block; }
+.fallback-message { display: none; }
+/*如果浏览器不支持,就会出现提示信息*/
+#impress { width: 100%; height: 100%; }
+#impress>div { font-size: 100px; }
+html,
+body { height: 100%; min-height: 100%; font-family: 'Open Sans','Arial', sans-serif; }
+body { top: 0; left: 0; width: 100%; height: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; transform-style: preserve-3d;}
+.step { position: relative; width: 1080px; height: 768px; padding: 40px; margin: 20px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+    font-family: 'PT Serif', georgia, serif; font-size: 48px; line-height: 1.5; }
+
+@keyframes guide {
+    0% { transform: translateX(-3px); opacity: 0.3; }
+    100% { transform: translateX(3px); opacity: 1; }
+}
+.colory { color: #ffd906; }
+
+nav { position: fixed; color: #fff; bottom: 0px; left: 50px; z-index: 100; }
+nav ul li { word-break: break-all;  width: 20px; float: left; height: 120px; margin-right: 20px; opacity: 0.15; font-family: PingFangSC-Semibold; font-size: 12px; color: #FAFAFA; letter-spacing: 0px; position: relative; cursor: pointer; }
+nav ul li>span { position: absolute; bottom: 30px; left: 0px;font-size: 20px; }
+nav ul li.chosen { color: #fff; opacity: 1; }
+nav ul li>span.chosen { color: #fff; opacity: 1; font-size: 40px; margin-left: -5px; }
+#icon { position: fixed; top: 10px; left: 20px; width: 40px; height: auto; }
+#impress { z-index: 99; }
+
+#index1 { color: #fafafa; position: relative; }
+#index1 .title1 { font-size: 48px; padding-bottom: 10px; width: 100px; border-bottom: 2px solid #eee; word-break: keep-all; margin: 0 auto; font-family: PingFangSC-Semibold; margin-top: 120px; }
+#index1 .content1 { font-family: Copperplate-Bold; font-size: 72px; color: #FAFAFA; letter-spacing: 0px; }
+#index1 .word { font-family: PingFangSC-Semibold; font-size: 24px; color: #FED806; letter-spacing: 0px; }
+#index1 .title1>span { margin-left: -20px; }
+#index1 .guideword { font-family: PingFangSC-Semibold; font-size: 12px; color: #FAFAFA; letter-spacing: 0px; position: absolute; top: 480px; right: 0px; }
+#index1 .guide { position: absolute; width: 60px; height: 60px; top: 400px; right: 0px; animation: guide 0.8s ease infinite alternate; cursor: pointer; }
+
+#index11 { position: relative; }
+#index11 .title { opacity: 0.1; font-family: PingFangSC-Semibold; font-size: 72px; color: #FAFAFA; letter-spacing: 0px; line-height: 80px; font-weight: 500; }
+#index11 .littitle { font-family: PingFangSC-Semibold; font-size: 36px; color: #FFD906; letter-spacing: 0px; margin-top: 30px; }
+#index11 .tit1 { font-family: PingFangSC-Semibold; font-size: 80px; color: #FFFFFF; letter-spacing: 0px; border-bottom: 6px solid #fff; width: 667px; margin: 0 auto; }
+#index11 .tit2 { margin-top: -20px; }
+#index11 .tit2>span:nth-of-type(1) { font-family: PingFangSC-Semibold; font-size: 140px; color: #FFD906; letter-spacing: 0px; vertical-align: middle; margin-right: 40px; }
+#index11 .tit2>span:nth-of-type(2) { font-family: PingFangSC-Semibold; font-size: 80px; color: #FFFFFF; letter-spacing: 0px; border-bottom: 6px solid #fff; padding-bottom: 10px; }
+#index11 .guide { width: 19px; height: auto; position: absolute; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+
+
+#index2 { color: #fafafa; position: relative; font-family: PingFangSC-Regular; }
+#index2 .title3 { font-size: 120px; font-weight: 900;font-family: PingFangSC-Semibold; }
+#index2 .openwindow { width: 302px; height: 303px; border: 16px solid #fff; opacity: 0.6; position: absolute; top: 290px; left: -50px; }
+#index2 .imgbox1 { width: 388px; height: 388px; position: absolute; left: 650px; margin-top: 120px; }
+#index2 .content2 { font-size: 36px; position: absolute; left: 340px; text-align: left; top: 280px; }
+#index2 .content3 { font-size: 24px; position: absolute; left: 340px; text-align: left; top: 480px; }
+
+
+#index3 { color: #fafafa; position: relative; }
+#index3 .title4 { font-size: 190px; font-weight: 900; word-break: keep-all; margin-left: -390px; opacity: 0.1; position: absolute; top: -300px; }
+#index3 .content4 { font-size: 32px; width: 500px; height: 370px; text-align: left; opacity: 0.6; position: absolute; left: 90px; top: 50px; padding: 10px; line-height: 36px; }
+
+#index4 { color: #fafafa; position: relative; }
+#index4 .title5 { font-family: PingFangSC-Semibold; font-size: 120px; color: #FFFFFF; letter-spacing: 0px; position: absolute; top: -60px; }
+#index4 .guide { position: absolute; width: 24px; height: auto; cursor: pointer; top: 550px; left: 180px; }
+#index4 .iphone { position: absolute; top: 240px; left: 50%; margin-left: -106px; }
+#index4 .bigicon { width: 100px; height: 100px; position: absolute; left: 650px; top: 400px; }
+#index4 .content5 { font-family: PingFangSC-Light; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; position: absolute; top: 520px; left: 650px; }
+
+#index5 { position: relative; color: #fafafa; }
+#index5 .title6 { opacity: 0.1; font-family: PingFangSC-Semibold; font-size: 120px; color: #FAFAFA; letter-spacing: 0px; line-height: 120px; word-break: keep-all; text-align: center; }
+#index5 .content6 { position: absolute; top: 320px; left: 180px; }
+#index5 .content6>h3 { opacity: 0.8; font-family: PingFangSC-Light; font-size: 20px; color: #FFFFFF; letter-spacing: 0px; text-align: left; line-height: 28px; }
+#index5 .content6>p { opacity: 0.2; font-family: PingFangSC-Light; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; text-align: left; line-height: 20px; margin-top: 5px; }
+#index5 .content6>h3:nth-of-type(2) { margin-top: 10px; }
+
+#index6 { position: relative; color: #fafafa; }
+#index6 .title7 { color: #fafafa; font-family: PingFangSC-Semibold; font-size: 100px; color: #FAFAFA; letter-spacing: 0px; top: 20px; left: 0px; font-weight: 600; text-align: left; }
+#index6 .littitle { font-family: PingFangSC-Semibold; font-size: 48px; letter-spacing: 0px; text-align: left; }
+#index6 .littitle>span { color: #FFD906; font-size: 24px; display: block; margin-bottom: -10px; }
+#index6 .content7 { font-family: PingFangSC-Regular; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; text-align: left; position: absolute; }
+#index6 .content7:nth-of-type(3) { top: 340px; left: 550px; }
+#index6 .content7:nth-of-type(2) { top: 340px; left: 0px; }
+#index6 .centents { position: absolute; left: 550px; top: 450px; font-family: PingFangSC-Regular; font-size: 36px; color: #FFFFFF; letter-spacing: 0px; }
+#index6 .guide { position: absolute; width: 24px; height: auto; left: 930px; top: 464px; }
+
+#index7 { position: relative; color: #fafafa; }
+#index7 .picture1 { width: 320px; height: 156px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; margin-top: 20px; margin-left: 100px; }
+#index7 .picture2 { width: 320px; height: 408px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; margin-top: 40px; margin-left: 100px; }
+#index7 .littitle { font-family: PingFangSC-Semibold; font-size: 48px; letter-spacing: 0px; text-align: left; position: absolute; top: 0px; left: 600px; }
+#index7 .littitle>span { color: #FFD906; font-size: 24px; display: block; margin-bottom: -10px; }
+#index7 .content8 { opacity: 0.6; font-family: PingFangSC-Regular; font-size: 30px; color: #FFFFFF; letter-spacing: 0px; text-align: left; position: absolute; left: 600px; top: 160px; line-height: 60px; }
+#index7 .word2 { line-height: 42px!important; font-family: PingFangSC-Semibold; font-size: 30px; color: #FFD906; letter-spacing: 0px; position: absolute; text-align: left; left: 600px; top: 490px; font-weight: 500; }
+#index7 .guide { width: 24px; height: auto; position: absolute; top: 575px; left: 450px; }
+
+#index8 { position: relative; }
+#index8 .back { font-family: PingFangSC-Ultralight; font-weight: 100; position: absolute; font-size: 1500px; top: -920px; left: -650px; word-break: keep-all; z-index: -100; color: #444; opacity: 0.3; }
+#index8 .content9 { font-size: 18px; text-align: left; position: absolute; z-index: 100; color: #fafafa; left: 50px; top: 150px; }
+
+#index9 { position: relative; color: #fafafa; text-align: left; font-family: PingFangSC-Semibold; }
+#index9 .littitle>span { font-size: 24px; letter-spacing: 0px; display: block; margin-bottom: -80px; }
+#index9 .littitle { font-size: 48px; font-weight: 500; }
+#index9 .content>p:nth-of-type(1) { font-size: 34px; margin-top: 60px; }
+#index9 .content>p:nth-of-type(2) { font-size: 24px; margin-top: 20px; }
+#index9 .content>p:nth-of-type(2)>span { font-size: 36px; border-bottom: 4px solid #FFD906; }
+#index9 .content>p:nth-of-type(3) { font-size: 24px; margin-top: 60px; }
+#index9 .right { position: absolute; top: 80px; left: 550px; font-size: 14px; }
+#index9 .right p span:nth-of-type(1) { font-size: 64px; color: #fafafa; line-height: 64px; }
+#index9 .right p span:nth-of-type(2) { font-size: 34px; line-height: 80px; }
+#index9 .right p span:nth-of-type(3) { font-size: 20px; line-height: 45px; }
+#index9 .right div { font-size: 14px; line-height: 18px; width: 284px; height: 325px; border: 16px solid #fff; opacity: 0.6; padding: 15px; }
+#index9 .box { position: absolute; width: 351px; height: 400px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; left: 650px; top: 234px; }
+
+#index10 { position: relative; color: #fafafa; font-size: 20px; text-align: left; font-family: PingFangSC-Semibold; top: -400px; }
+#index10 .right p>span { display: inline-block; }
+#index10 .right p>span:nth-of-type(1) { font-size: 120px; font-weight: 800; margin-left: -60px; margin-top: -20px; }
+#index10 .right p>span:nth-of-type(2) { font-size: 60px; margin-top: 0px; margin-left: -45px; }
+#index10 .right p>span:nth-of-type(3) { font-size: 30px; margin-top: 60px; margin-bottom: 50px; margin-left: -40px; }
+#index10 .right div { width: 600px; font-size: 24px; }
+
+#contact { position: relative; color: #fafaaf; text-align: left; font-family: PingFangSC-Semibold; width: 100%; height: 688px; }
+#contact img { width: 100%; height: auto; position: absolute; top: 0px; left: 0px; }
+#contact .add { position: absolute; font-family: PingFangSC-Medium; font-size: 36px; color: #111111; letter-spacing: 0px; background: #FFD906; padding: 10px; top: 120px; left: 120px; font-weight: 600; }
+#contact .addname { position: absolute; font-family: PingFangSC-Medium; font-size: 36px; color: #111111; letter-spacing: 0px; background: #FFD906;padding: 10px; left: 120px; top: 220px; font-weight: 600; }
+#contact .pos { font-family: PingFangSC-Ultralight; font-size: 48px; color: #FFFFFF; letter-spacing: 0px; font-weight: 100; position: absolute; left: 120px; top: 500px; }
+#contact .conta .littitle { position: absolute; font-size: 48px; color: #fff; left: 800px; top: 240px; }
+#contact .conta .littitle span { font-size: 24px; }
+#contact .mail { font-size: 20px; position: absolute; color: #fff; left: 800px; top: 450px; }
+#contact .mail span { display: inline-block; margin-top: 20px; }
+#contact .mail a { opacity: 0.6; }
+#contact .num4 { color: #aaa; background: #333; position: absolute; font-size: 32px; left: 334px; top: 250px; transform: rotate(38deg); padding: 5px; }
+#contact .num10 { color: #aaa; background: #333; position: absolute; font-size: 32px; top: 560px; left: 421px; transform: rotate(-38deg); padding: 5px; z-index: -1; }
+#contact .position { width: 43px; height: auto; top: 423px; left: 584px; }

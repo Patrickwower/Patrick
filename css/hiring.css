@@ -1,0 +1,11 @@
+#index10 { position: relative; color: #fafafa; text-align: left; font-family: PingFangSC-Semibold; }
+#index10 .imgbox { width: 400px; height: 688px; background: #fff; }
+#index10 .content { width: 600px; height: 688px; position: absolute; top: 0px; left: 400px; padding-top: 14px; }
+#index10 .content .tip { width: 200px; height: 220px; float: left; position: relative; display: table-cell; }
+#index10 .content .tip span:nth-of-type(1) { font-size: 20px; position: absolute; left: 12px; font-weight: 600; top: 10px; }
+#index10 .content .tip span:nth-of-type(2) { font-size: 64px; opacity: 0.1; position: absolute; left: 10px; top: -36px; font-weight: 900; font-family: Arial-Black; }
+#index10 .content .tip>div { font-size: 12px; position: absolute; width: 180px; left: 10px; height: 150px; border-bottom: 1px solid #fff; border-top: 1px solid #fff; top: 42px; box-sizing: border-box; display: table-cell; vertical-align: middle; }
+#index10 .content .middle { margin-top: 30px; }
+#index10 .content .middle1 { margin-top: 50px; }
+#index10 .content .middle2 { margin-top: 10px; }
+#index10 .content .middle3 { margin-top: 2px; }
