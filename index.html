@@ -5,11 +5,8 @@
     <title>登月舱</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     </head>
-<body class="impress-not-supported">
-<div class="fallback-message">
-    <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
-    <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
-</div>
+<body>
+<img src="img/app_icon@3x.png" id="icon" />
     <!--<div class="fallback-message">-->
         <!--您的浏览器已经OUT了,请升级您的浏览器!-->
         <!--<br />-->
@@ -265,9 +262,7 @@
             <li>联系方式<br/><span>|</span></li>
         </ul>
     </nav>
-    <img src="img/app_icon@3x.png" id="icon" />
-
-    <script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/impress.js"></script>
 <script>
     (function ($, d, w) {
@@ -291,9 +286,13 @@
         var impressElement = impress();
         impressElement.init();
 
-        $('.guide').on('click',function(){impressElement.next();});
+        $('.guide').on('click',function(){
+
+            impressElement.next();
+        });
 
     })(jQuery, document, window);
+
 </script>
 
 </body>

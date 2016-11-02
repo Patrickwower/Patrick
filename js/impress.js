@@ -791,9 +791,9 @@
                 target = target.parentNode;
             }
 
-            if ( api.goto( target ) ) {
-                event.preventDefault();
-            }
+            //if ( api.goto( target ) ) {
+            //    event.preventDefault();
+            //}
         }, false );
 
         // Touch handler to detect taps on the left and right side of the screen
