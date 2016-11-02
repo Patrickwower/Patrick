@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <title>登月舱</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/index.js"></script>
-</head>
-<body>
-<img src="img/app_icon@3x.png" id="icon" />
-    <div class="fallback-message">
-        您的浏览器已经OUT了,请升级您的浏览器!
-        <br />
-        请使用最新版本的谷歌,火狐或者Safari浏览器!
-    </div>
+    </head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
+    <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+</div>
+    <!--<div class="fallback-message">-->
+        <!--您的浏览器已经OUT了,请升级您的浏览器!-->
+        <!--<br />-->
+        <!--请使用最新版本的谷歌,火狐或者Safari浏览器!-->
+    <!--</div>-->
     <div id="impress">
-        <div id="un" class="step" data-x="1500" data-y="300" data-z="300">
+        <div id="un_1" class="step" data-x="1500" data-y="300" data-z="300">
             <div id="index1">
                 <p class="title1"><span>登月舱</span></p>
                 <p class="content1">LUNAR MODULE</p>
                 <p class="word">一所基于兴趣实践的未来高中</p>
                 <span class="guideword">最好的学习体验,发生在探索自己热爱的事情当中</span>
-                <img src="img/arrow@3x.png" class="guide" />
+                <img src="img/arrow@3x.png" class="guide" id="guide" />
             </div>
         </div>
-        <div id="une" class="step" data-x="4000" data-y="300" data-z="300">
+        <div id="un_2" class="step" data-x="4000" data-y="300" data-z="300">
             <div id="index11">
                 <p class="title">
                     重新 定义学校<br />
@@ -42,7 +43,7 @@
                 <img src="img/arrow@3x.png" class="guide" />
             </div>
         </div>
-        <div id="deux" class="step" data-x="-2000" data-y="1000" data-z="700">
+        <div id="un_3" class="step" data-x="-2000" data-y="1000" data-z="700">
             <div id="index2">
                 <h1 class="title3">未来学习空间</h1>
                 <div class="openwindow">
@@ -62,7 +63,7 @@
                 <div class="imgbox1"><img class="zone1" src="img/arrow@3x.png" /></div>
             </div>
         </div>
-        <div id="trois" class="step" data-x="-2630" data-y="1250" data-z="-400">
+        <div id="un_4" class="step" data-x="-2630" data-y="1250" data-z="-400">
             <div id="index3">
                 <p class="title4">
                     散布于城市中的高中生创新协作空间
@@ -74,7 +75,7 @@
                 </p>
             </div>
         </div>
-        <div id="quatre" class="step" data-x="-2500" data-y="-2000" data-z="100">
+        <div id="un_5" class="step" data-x="-2500" data-y="-2000" data-z="100">
             <div id="index4">
                 <p class="title5">LUNAR MODULE</p>
                 <img src="img/sun@3x.png" class="guide" />
@@ -85,7 +86,7 @@
                 </p>
             </div>
         </div>
-        <div id="cinq" class="step" data-x="-2800" data-y="-2100" data-z="-800" data-rotate-x="">
+        <div id="un_6" class="step" data-x="-2800" data-y="-2100" data-z="-800" data-rotate-x="">
             <div id="index5">
                 <p class="title6">
                     链接一切能获取知识与技能的<br />&nbsp;&nbsp;&nbsp;&nbsp;人与世界的个性化交互
@@ -105,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div id="six" class="step" data-x="000" data-y="-1000" data-z="300" data-rotate-x="20" data-rotate-y="30" data-rotate-z="90">
+        <div id="un_7" class="step" data-x="000" data-y="-1000" data-z="300" data-rotate-x="20" data-rotate-y="30" data-rotate-z="90">
             <div id="index6">
                 <h1 class="title7">关于我们</h1>
                 <p class="littitle">
@@ -129,7 +130,7 @@
                 <img src="img/smile@3x.png" class="guide" />
             </div>
         </div>
-        <div id="sept" class="step" data-x="-4000" data-y="-1800" data-z="4000" data-rotate-x="90" data-rotate-z="90">
+        <div id="un_8" class="step" data-x="-4000" data-y="-1800" data-z="4000" data-rotate-x="90" data-rotate-z="90">
             <div id="index7">
                 <div class="picture1">
                     <img src="" />
@@ -156,7 +157,7 @@
                 </span>
             </div>
         </div>
-        <div id="huit" class="step" data-x="-4050" data-y="-800" data-z="3735" data-rotate-x="90" data-rotate-z="90" >
+        <div id="un_9" class="step" data-x="-4050" data-y="-800" data-z="3735" data-rotate-x="90" data-rotate-z="90" >
             <div id="index8">
                 <div class="back">探索</div>
                 <div class="content9">
@@ -169,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <div id="neuf" class="step" data-x="-5000" data-y="-2300" data-rotate-z="-90">
+        <div id="un_10" class="step" data-x="-5000" data-y="-2300" data-rotate-z="-90">
             <div id="index9">
                 <p class="littitle">
                     <span class="colory">—&nbsp;No.3</span><br />
@@ -194,7 +195,7 @@
                 </div>
             </div>
         </div>
-        <div id="dix" class="step" data-x="-4830" data-y="-3120" data-z="-1000" data-rotate-z="-90">
+        <div id="un_11" class="step" data-x="-4830" data-y="-3120" data-z="-1000" data-rotate-z="-90">
             <div id="index10">
                 <div class="right">
                     <p>
@@ -211,7 +212,7 @@
                 </div>
             </div>
         </div>
-        <div id="onze" class="step" data-x="-4800" data-y="-3700" data-z="-1000" data-rotate-x="-45" data-rotate-y="50" data-rotate-z="-30">
+        <div id="un_12" class="step" data-x="-4800" data-y="-3700" data-z="-1000" data-rotate-x="-45" data-rotate-y="50" data-rotate-z="-30">
             <div id="contact">
                 <img src="img/Shape@3x.png" />
                 <div class="add">
@@ -264,9 +265,36 @@
             <li>联系方式<br/><span>|</span></li>
         </ul>
     </nav>
+    <img src="img/app_icon@3x.png" id="icon" />
+
+    <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/impress.js"></script>
 <script>
-    impress().init();
+    (function ($, d, w) {
+
+        $('.fallback-message').hide();
+
+        w.addEventListener('impress:stepenter', function (event) {
+            for (var i= 0, a = d.querySelectorAll('.step.leaving'), l = a.length; i < l; i++) {
+                a[i].classList.remove('leaving');
+            }
+            if (event.target.id === 'overview') {
+                d.getElementById('impress').classList.add('overview');
+            } else {
+                d.getElementById('impress').classList.remove('overview');
+            }
+        });
+        w.addEventListener('impress:stepleave', function (event) {
+            event.target.classList.add('leaving');
+        });
+
+        var impressElement = impress();
+        impressElement.init();
+
+        $('.guide').on('click',function(){impressElement.next();});
+
+    })(jQuery, document, window);
 </script>
+
 </body>
 </html>
