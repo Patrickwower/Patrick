@@ -740,6 +740,27 @@
                     case 37: // Left
                     case 38: // Up
                              api.prev();
+                        if($("#un_3").hasClass("active")){
+                            $("nav ul li.index_2").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_5").hasClass("active")){
+                            $("nav ul li.index_3").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_7").hasClass("active")){
+                            $("nav ul li.index_4").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_8").hasClass("active")){
+                            $("nav ul li.index_5").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_10").hasClass("active")){
+                            $("nav ul li.index_6").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_12").hasClass("active")){
+                            $("nav ul li.index_7").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_1").hasClass("active")){
+                            $("nav ul li.index_1").addClass("chosen").siblings().removeClass("chosen")
+                        }
                              break;
                     case 9:  // Tab
                     case 32: // Space
@@ -747,6 +768,27 @@
                     case 39: // Right
                     case 40: // Down
                              api.next();
+                        if($("#un_3").hasClass("active")){
+                            $("nav ul li.index_2").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_5").hasClass("active")){
+                            $("nav ul li.index_3").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_7").hasClass("active")){
+                            $("nav ul li.index_4").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_8").hasClass("active")){
+                            $("nav ul li.index_5").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_10").hasClass("active")){
+                            $("nav ul li.index_6").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_12").hasClass("active")){
+                            $("nav ul li.index_7").addClass("chosen").siblings().removeClass("chosen")
+                        }
+                        if($("#un_1").hasClass("active")){
+                            $("nav ul li.index_1").addClass("chosen").siblings().removeClass("chosen")
+                        }
                              break;
                 }
 
@@ -790,7 +832,7 @@
                       ( target !== document.documentElement ) ) {
                 target = target.parentNode;
             }
-
+            //点击下一步按钮出问题的地方..
             //if ( api.goto( target ) ) {
             //    event.preventDefault();
             //}
