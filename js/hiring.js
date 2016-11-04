@@ -117,13 +117,17 @@ $(document).ready(function(){
         $(this).css("opacity","1");
     });
     $(".img2").hover(function(){
+        $(this).css("opacity","0.5");
         $(".big2").show(500);
     },function(){
+        $(this).css("opacity","1");
         $(".big2").hide(500);
     });
     $(".img3").hover(function(){
+        $(this).css("opacity","0.5");
         $(".big3").show(500);
     },function(){
+        $(this).css("opacity","1");
         $(".big3").hide(500);
     })
 })
