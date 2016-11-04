@@ -33,6 +33,11 @@ $(document).ready(function(){
     var impressElement = impress();
     $("nav ul li").bind("click",function(){
         $(this).addClass("chosen").siblings().removeClass("chosen");
+        $("#un_4 .guide").hide();
+        $("#un_6 .guide").hide();
+        $("#un_9 .guide").hide();
+        $("#un_11 .guide").hide();
+
     });
     $("nav ul li.index_1").bind("click",function(){
         impressElement.goto(0);
@@ -58,6 +63,7 @@ $(document).ready(function(){
 
     $("#icon").bind("click",function(){
         impressElement.goto(0);
+        $("nav ul li.index_1").addClass("chosen").siblings().removeClass("chosen");
     })
 
     $("#index5 .guide").bind("click",function(){
@@ -97,9 +103,10 @@ $(document).ready(function(){
     });
     $("#un_10 .guide").bind("click",function(){
         $("#un_11 .guide").show(600);
+    });
+
+    $("#un_12 .guide").bind("click",function(){
+        $("nav ul li.index_1").addClass("chosen").siblings().removeClass("chosen");
     })
-
-
-
 
 });

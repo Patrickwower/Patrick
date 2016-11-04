@@ -51,7 +51,7 @@ input, select {
 #index .content .tip { width: 270px; height: 300px; float: left; position: relative; }
 #index .content .tip span:nth-of-type(1) { position: absolute; font-family: PingFangSC-Semibold; font-size: 20px; color: #FAFAFA; letter-spacing: 0px; top: 35px; }
 #index .content .tip span:nth-of-type(2) { opacity: 0.2; font-family: Arial-Black; font-size: 64px; color: #FAFAFA; letter-spacing: 0px; position: absolute;left: 0px; }
-#index .content .tip>div { position: absolute; top: 80px; border-top: 1px solid #ccc; width: 220px; left: 5px; border-bottom: 1px solid #ccc; height: 177px; font-family: PingFangSC-Regular; font-size: 16px; color: #FAFAFA; letter-spacing: 0px; line-height: 1.2; }
+#index .content .tip>div { position: absolute; top: 80px; border-top: 1px solid #ccc; width: 220px; left: 5px; border-bottom: 1px solid #ccc; height: 177px; font-family: PingFangSC-Regular; font-size: 16px; color: #FAFAFA; letter-spacing: 0px; line-height: 1.2; opacity: 0.6; }
 #index .content .tip>div .middle { padding-top: 50px; }
 #index .content .tip>div .middle2 { padding-top: 13px; }
 #index .content .tip>div .middle3 { padding-top: 5px; }
