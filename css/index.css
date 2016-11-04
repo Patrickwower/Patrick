@@ -66,12 +66,12 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 
 #index11 { position: relative; }
 #index11 .title { opacity: 0.1; font-family: PingFangSC-Semibold; font-size: 72px; color: #FAFAFA; letter-spacing: 0px; line-height: 80px; font-weight: 500; }
-#index11 .littitle { font-family: PingFangSC-Semibold; font-size: 36px; color: #FFD906; letter-spacing: 0px; margin-top: 30px; }
-#index11 .tit1 { font-family: PingFangSC-Semibold; font-size: 80px; color: #FFFFFF; letter-spacing: 0px; border-bottom: 6px solid #fff; width: 667px; margin: 0 auto; word-break: keep-all; }
-#index11 .tit2 { margin-top: -20px; }
-#index11 .tit2>span:nth-of-type(1) { font-family: PingFangSC-Semibold; font-size: 140px; color: #FFD906; letter-spacing: 0px; vertical-align: middle; margin-right: 40px; }
-#index11 .tit2>span:nth-of-type(2) { font-family: PingFangSC-Semibold; font-size: 80px; color: #FFFFFF; letter-spacing: 0px; border-bottom: 6px solid #fff; padding-bottom: 10px; }
-#index11 .guide { width: 19px; height: auto; position: absolute; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+#index11 .littitle { font-family: PingFangSC-Semibold; font-size: 80px; color: #FFD906; letter-spacing: 0px; margin-top: 30px; }
+#index11 .tit1 { font-family: PingFangSC-Semibold; font-size: 36px; color: #FFFFFF; letter-spacing: 0px; border-bottom: 6px solid #fff; width: 300px; margin: 0 auto; word-break: keep-all; }
+#index11 .tit2 { margin-top: -0px; }
+#index11 .tit2>span:nth-of-type(1) { font-family: PingFangSC-Semibold; font-size: 60px; color: #FFD906; letter-spacing: 0px; vertical-align: middle; margin-right: 40px; }
+#index11 .tit2>span:nth-of-type(2) { font-family: PingFangSC-Semibold; font-size: 36px; color: #FFFFFF; letter-spacing: 0px; border-bottom: 6px solid #fff; padding-bottom: 10px; }
+#index11 .guide { width: 19px; height: auto; position: absolute; cursor: pointer; animation: guide 0.8s ease infinite alternate; margin-top: 20px; }
 
 
 #index2 { color: #fafafa; position: relative; font-family: PingFangSC-Regular; }
