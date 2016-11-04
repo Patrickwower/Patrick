@@ -15,10 +15,14 @@ audio, video {
     background:transparent;
     outline-style:none;/*FF浣跨敤*/
 }
-
+@font-face {
+    font-family: PingFang;
+    src: url("pingfang.ttf");
+}
 body {
     line-height:1;
     background: #000;
+    font-family: PingFang;
 }
 
 a{

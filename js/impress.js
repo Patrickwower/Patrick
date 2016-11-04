@@ -740,26 +740,62 @@
                     case 37: // Left
                     case 38: // Up
                              api.prev();
+
                         if($("#un_3").hasClass("active")){
                             $("nav ul li.index_2").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                         if($("#un_5").hasClass("active")){
                             $("nav ul li.index_3").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                         if($("#un_7").hasClass("active")){
                             $("nav ul li.index_4").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                         if($("#un_8").hasClass("active")){
                             $("nav ul li.index_5").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                         if($("#un_10").hasClass("active")){
                             $("nav ul li.index_6").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                         if($("#un_12").hasClass("active")){
                             $("nav ul li.index_7").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                         if($("#un_1").hasClass("active")){
                             $("nav ul li.index_1").addClass("chosen").siblings().removeClass("chosen")
+                            $("#un_4 .guide").hide();
+                            $("#un_6 .guide").hide();
+                            $("#un_9 .guide").hide();
+                            $("#un_11 .guide").hide();
+
                         }
                              break;
                     case 9:  // Tab

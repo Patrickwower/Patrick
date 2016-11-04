@@ -13,6 +13,11 @@ html {overflow-y: scroll;}
 .clearfix { *zoom:1; }
 /* 初始化样式 */
 
+@font-face {
+    font-family: PingFang;
+    src: url("pingfang.ttf");
+}
+body { font-family: PingFang; }
 .no-support-message { display:none; }
 .impress-not-supported .no-support-message { display:block; }
 /*如果浏览器不支持,就会出现提示信息*/
@@ -45,7 +50,11 @@ body { top: 0; left: 0; width: 100%; height: 100%; -webkit-background-size: cove
 
 nav { position: fixed; color: #fff; bottom: 0px; left: 50px; z-index: 100; font-family: PingFangSC-Regular; }
 nav ul li { word-break: break-all;  width: 20px; float: left; height: 110px; margin-right: 20px; opacity: 0.15; font-family: PingFangSC-Semibold; font-size: 12px; color: #FAFAFA; letter-spacing: 0px; position: relative; cursor: pointer; }
-nav ul li>span { position: absolute; bottom: 30px; left: 0px; margin-left: 5px; }
+nav ul li>span { display: inline-block; width: 20px; text-align: center; }
+nav ul li:nth-of-type(1)>span { margin-top: 30px; }
+nav ul li:nth-of-type(2)>span { margin-top: 9px; }
+nav ul li:nth-of-type(3)>span { margin-top: 21px; }
+nav ul li:nth-of-type(4)>span,nav ul li:nth-of-type(5)>span,nav ul li:nth-of-type(6)>span,nav ul li:nth-of-type(7)>span { margin-top: 9px; }
 nav ul li.chosen { color: #fff; opacity: 1; }
 nav ul li>span.chosen { color: #fff; opacity: 1; }
 #icon { position: fixed; top: 10px; left: 20px; width: 40px; height: auto; cursor: pointer; }
@@ -77,7 +86,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index2 .imgbox1 img:hover { opacity: 1; width: 600px; height: auto; transition: 1s; }
 #index2 .content2 { font-size: 36px; position: absolute; left: 310px; text-align: left; top: 260px; }
 #index2 .content3 { font-size: 24px; position: absolute; left: 290px; text-align: left; top: 350px; }
-#index2 .guide { width: 24px; height: auto; position: absolute; left: 200px; top: 590px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+#index2 .guide { width: 24px; height: auto; position: absolute; left: 350px; top: 520px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
 #index3 { color: #fafafa; position: relative; font-family: PingFangSC-Regular; }
 #index3 .title4 { font-size: 160px; font-weight: 900; word-break: keep-all; margin-left: -40px; opacity: 0.1; position: absolute; top: -300px; }
@@ -88,8 +97,8 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 
 #index4 { color: #fafafa; position: relative; z-index: 999; font-family: PingFangSC-Regular; }
 #index4 .title5 { font-family: PingFangSC-Semibold; font-size: 120px; color: #FFFFFF; letter-spacing: 0px; position: absolute; top: -60px; }
-#index4 .guide { position: absolute; width: 24px; height: auto; cursor: pointer; top: 450px; left: 150px; animation: guide 0.8s ease infinite alternate; }
-#index4 .iphone { position: absolute; top: 280px; left: 50%; margin-left: -140px; width: 150px; height: auto; }
+#index4 .guide { position: absolute; width: 24px; height: auto; cursor: pointer; top: 500px; left: 150px; animation: guide 0.8s ease infinite alternate; }
+#index4 .iphone { position: absolute; top: 280px; left: 50%; margin-left: -75px; width: 150px; height: auto; }
 #index4 .bigicon { width: 100px; height: 100px; position: absolute; left: 700px; top: 350px; }
 #index4 .content5 { font-family: PingFangSC-Light; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; position: absolute; top: 460px; left: 700px; }
 
@@ -97,7 +106,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index5 .title6 { opacity: 0.1; font-family: PingFangSC-Semibold; font-size: 130px; color: #FAFAFA; letter-spacing: 0px; line-height: 120px; word-break: keep-all; text-align: center; position: absolute; top: -20px; left: 120px; }
 #index5 .content6 { position: absolute; top: 280px; left: 350px; }
 #index5 .content6>h3 { opacity: 0.8; font-family: PingFangSC-Light; font-size: 20px; color: #FFFFFF; letter-spacing: 0px; text-align: left; line-height: 28px; }
-#index5 .content6>p { opacity: 0.2; font-family: PingFangSC-Light; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; text-align: left; line-height: 20px; margin-top: 5px; }
+#index5 .content6>p { opacity: 0.6; font-family: PingFangSC-Light; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; text-align: left; line-height: 20px; margin-top: 5px; }
 #index5 .content6>h3:nth-of-type(2) { margin-top: 10px; }
 #index5 .guide { width: 24px; height: auto; position: absolute; top: 400px; left: -0px; cursor: pointer; z-index: 10000; animation: guide 0.8s ease infinite alternate; }
 
@@ -109,7 +118,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index6 .content7:nth-of-type(3) { top: 340px; left: 550px; }
 #index6 .content7:nth-of-type(2) { top: 340px; left: 0px; }
 #index6 .centents { opacity: 0.6; position: absolute; left: 550px; top: 470px; font-family: PingFangSC-Regular; font-size: 32px; color: #FFFFFF; letter-spacing: 0px; }
-#index6 .guide { position: absolute; width: 24px; height: auto; left: 890px; top: 480px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+#index6 .guide { position: absolute; width: 24px; height: auto; left: 920px; top: 480px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
 #index7 { position: relative; color: #fafafa; font-family: PingFangSC-Regular; }
 #index7 .picture1 { width: 320px; height: 156px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; margin-top: 20px; margin-left: 100px; overflow: hidden; }
@@ -146,12 +155,13 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index9 .link { color: #FFD906;  animation: star 0.8s ease infinite alternate; }
 #index9 .link:hover { text-decoration: none; }
 
-#index10 { position: relative; color: #fafafa; font-size: 20px; text-align: left; font-family: PingFangSC-Semibold; top: -400px; opacity: 0.6; }
+#index10 { position: relative; color: #fafafa; font-size: 20px; text-align: left; font-family: PingFangSC-Semibold; top: -400px; }
 #index10 .right p>span { display: inline-block; }
 #index10 .right p>span:nth-of-type(1) { font-size: 120px; font-weight: 800; margin-left: -60px; margin-top: -20px; }
 #index10 .right p>span:nth-of-type(2) { font-size: 60px; margin-top: 0px; margin-left: -45px; }
 #index10 .right p>span:nth-of-type(3) { font-size: 30px; margin-top: 60px; margin-bottom: 50px; margin-left: -40px; }
 #index10 .right div { width: 560px; font-size: 20px; margin-top: 180px; margin-left: 20px; }
+#index10 .right div .span2 { opacity: 0.6; }
 #index10 .guide { width: 24px; height: auto; position: absolute; top: 950px; left: 420px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
 #contact { position: relative; color: #fafaaf; text-align: left; font-family: PingFangSC-Semibold; width: 100%; height: 688px; }
