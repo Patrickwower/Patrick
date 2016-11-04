@@ -141,6 +141,8 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index9 .right div { font-size: 14px; line-height: 18px; width: 284px; height: 325px; border: 16px solid #fff; opacity: 0.6; padding: 15px; }
 #index9 .box { position: absolute; width: 351px; height: 360px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; left: 650px; top: 234px; }
 #index9 .guide { width: 24px; height: auto; position: absolute; top: 500px; left: 600px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+#index9 .link { color: #FFD906;  animation: star 0.8s ease infinite alternate; }
+#index9 .link:hover { text-decoration: none; }
 
 #index10 { position: relative; color: #fafafa; font-size: 20px; text-align: left; font-family: PingFangSC-Semibold; top: -400px; opacity: 0.6; }
 #index10 .right p>span { display: inline-block; }
