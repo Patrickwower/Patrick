@@ -38,6 +38,10 @@ body { top: 0; left: 0; width: 100%; height: 100%; -webkit-background-size: cove
     0% { opacity: 0.3; }
     100% { opacity: 1; }
 }
+@keyframes updown {
+    0% { transform: translateY(6px); }
+    100% { transform: translateY(0px); }
+}
 .colory { color: #ffd906; }
 
 nav { position: fixed; color: #fff; bottom: 0px; left: 50px; z-index: 100; }
@@ -74,7 +78,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index2 .imgbox1 img:hover { opacity: 1; width: 600px; height: auto; transition: 1s; }
 #index2 .content2 { font-size: 36px; position: absolute; left: 340px; text-align: left; top: 280px; }
 #index2 .content3 { font-size: 24px; position: absolute; left: 340px; text-align: left; top: 480px; }
-#index2 .guide { width: 24px; height: auto; position: absolute; left: 200px; top: 590px; cursor: pointer; animation: star 0.8s ease infinite alternate; }
+#index2 .guide { width: 24px; height: auto; position: absolute; left: 200px; top: 590px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
 #index3 { color: #fafafa; position: relative; }
 #index3 .title4 { font-size: 190px; font-weight: 900; word-break: keep-all; margin-left: -390px; opacity: 0.1; position: absolute; top: -300px; }
@@ -83,7 +87,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 
 #index4 { color: #fafafa; position: relative; z-index: 999; }
 #index4 .title5 { font-family: PingFangSC-Semibold; font-size: 120px; color: #FFFFFF; letter-spacing: 0px; position: absolute; top: -60px; }
-#index4 .guide { position: absolute; width: 24px; height: auto; cursor: pointer; top: 520px; left: 150px; animation: star 0.8s ease infinite alternate; }
+#index4 .guide { position: absolute; width: 24px; height: auto; cursor: pointer; top: 520px; left: 150px; animation: guide 0.8s ease infinite alternate; }
 #index4 .iphone { position: absolute; top: 240px; left: 50%; margin-left: -106px; }
 #index4 .bigicon { width: 100px; height: 100px; position: absolute; left: 650px; top: 400px; }
 #index4 .content5 { font-family: PingFangSC-Light; font-size: 14px; color: #FFFFFF; letter-spacing: 0px; position: absolute; top: 520px; left: 650px; }
@@ -96,7 +100,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index5 .content6>h3:nth-of-type(2) { margin-top: 10px; }
 #index5 .guide { width: 24px; height: auto; position: absolute; top: 400px; left: -0px; cursor: pointer; z-index: 10000; animation: guide 0.8s ease infinite alternate; }
 
-#index6 { position: relative; color: #fafafa; }
+#index6 { position: relative; color: #fafafa; opacity: 0.6; }
 #index6 .title7 { color: #fafafa; font-family: PingFangSC-Semibold; font-size: 100px; color: #FAFAFA; letter-spacing: 0px; top: 20px; left: 0px; font-weight: 600; text-align: left; }
 #index6 .littitle { font-family: PingFangSC-Semibold; font-size: 48px; letter-spacing: 0px; text-align: left; }
 #index6 .littitle>span { color: #FFD906; font-size: 24px; display: block; margin-bottom: -10px; }
@@ -104,7 +108,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index6 .content7:nth-of-type(3) { top: 340px; left: 550px; }
 #index6 .content7:nth-of-type(2) { top: 340px; left: 0px; }
 #index6 .centents { position: absolute; left: 550px; top: 450px; font-family: PingFangSC-Regular; font-size: 36px; color: #FFFFFF; letter-spacing: 0px; }
-#index6 .guide { position: absolute; width: 24px; height: auto; left: 930px; top: 464px; cursor: pointer; animation: star 0.8s ease infinite alternate; }
+#index6 .guide { position: absolute; width: 24px; height: auto; left: 930px; top: 464px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
 #index7 { position: relative; color: #fafafa; }
 #index7 .picture1 { width: 320px; height: 156px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; margin-top: 20px; margin-left: 100px; overflow: hidden; }
@@ -116,14 +120,14 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index7 .littitle>span { color: #FFD906; font-size: 24px; display: block; margin-bottom: -10px; }
 #index7 .content8 { opacity: 0.6; font-family: PingFangSC-Regular; font-size: 30px; color: #FFFFFF; letter-spacing: 0px; text-align: left; position: absolute; left: 600px; top: 160px; line-height: 60px; }
 #index7 .word2 { line-height: 42px!important; font-family: PingFangSC-Semibold; font-size: 30px; color: #FFD906; letter-spacing: 0px; position: absolute; text-align: left; left: 600px; top: 490px; font-weight: 500; }
-#index7 .guide { width: 24px; height: auto; position: absolute; top: 575px; left: 450px; cursor: pointer; animation: star 0.8s ease infinite alternate; }
+#index7 .guide { width: 24px; height: auto; position: absolute; top: 575px; left: 450px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
 #index8 { position: relative; }
 #index8 .back { font-family: PingFangSC-Ultralight; font-weight: 100; position: absolute; font-size: 1500px; top: -880px; left: -420px; word-break: keep-all; z-index: -100; color: #444; opacity: 0.3; }
 #index8 .content9 { font-size: 18px; text-align: left; position: absolute; z-index: 100; color: #fafafa; left: 350px; top: 120px; opacity: 0.6; }
-#index8 .guide { width: 24px; height: auto; position: absolute; top: 635px; left: 384px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+#index8 .guide { width: 24px; height: auto; position: absolute; top: 650px; left: 384px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
-#index9 { position: relative; color: #fafafa; text-align: left; font-family: PingFangSC-Semibold; }
+#index9 { position: relative; color: #fafafa; text-align: left; font-family: PingFangSC-Semibold; opacity: 0.6; }
 #index9 .littitle>span { font-size: 24px; letter-spacing: 0px; display: block; margin-bottom: -80px; }
 #index9 .littitle { font-size: 48px; font-weight: 500; }
 #index9 .content>p:nth-of-type(1) { font-size: 34px; margin-top: 60px; }
@@ -136,9 +140,9 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #index9 .right p span:nth-of-type(3) { font-size: 20px; line-height: 45px; }
 #index9 .right div { font-size: 14px; line-height: 18px; width: 284px; height: 325px; border: 16px solid #fff; opacity: 0.6; padding: 15px; }
 #index9 .box { position: absolute; width: 351px; height: 360px; box-sizing: border-box; border: 16px solid #fff; opacity: 0.6; left: 650px; top: 234px; }
-#index9 .guide { width: 24px; height: auto; position: absolute; top: 500px; left: 600px; cursor: pointer; animation: star 0.8s ease infinite alternate; }
+#index9 .guide { width: 24px; height: auto; position: absolute; top: 500px; left: 600px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
 
-#index10 { position: relative; color: #fafafa; font-size: 20px; text-align: left; font-family: PingFangSC-Semibold; top: -400px; }
+#index10 { position: relative; color: #fafafa; font-size: 20px; text-align: left; font-family: PingFangSC-Semibold; top: -400px; opacity: 0.6; }
 #index10 .right p>span { display: inline-block; }
 #index10 .right p>span:nth-of-type(1) { font-size: 120px; font-weight: 800; margin-left: -60px; margin-top: -20px; }
 #index10 .right p>span:nth-of-type(2) { font-size: 60px; margin-top: 0px; margin-left: -45px; }
@@ -150,7 +154,7 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #contact img { width: 100%; height: auto; position: absolute; top: 0px; left: 0px; }
 #contact .add { position: absolute; font-family: PingFangSC-Medium; font-size: 36px; color: #111111; letter-spacing: 0px; background: #FFD906; padding: 10px; top: 120px; left: 120px; font-weight: 600; }
 #contact .addname { position: absolute; font-family: PingFangSC-Medium; font-size: 36px; color: #111111; letter-spacing: 0px; background: #FFD906;padding: 10px; left: 120px; top: 220px; font-weight: 600; }
-#contact .pos { position: absolute; left: 120px; top: 500px; width: 220px; height: 100px; cursor: pointer; animation: guide 0.8s ease infinite alternate; }
+#contact .pos { position: absolute; left: 120px; top: 500px; width: 220px; height: 100px; cursor: pointer; }
 #contact .conta .littitle { position: absolute; font-size: 48px; color: #fff; left: 800px; top: 240px; }
 #contact .conta .littitle span { font-size: 24px; }
 #contact .mail { font-size: 20px; position: absolute; color: #fff; left: 800px; top: 450px; }
@@ -158,4 +162,4 @@ nav ul li>span.chosen { color: #fff; opacity: 1; }
 #contact .mail a { opacity: 0.6; }
 #contact .num4 { color: #aaa; background: #333; position: absolute; font-size: 32px; left: 334px; top: 250px; transform: rotate(38deg); padding: 5px; }
 #contact .num10 { color: #aaa; background: #333; position: absolute; font-size: 32px; top: 560px; left: 421px; transform: rotate(-38deg); padding: 5px; z-index: -1; }
-#contact .position { width: 43px; height: auto; top: 423px; left: 584px; }
+#contact .position { width: 43px; height: auto; top: 415px; left: 584px; cursor: pointer; animation: updown 0.8s ease infinite alternate; }

@@ -78,5 +78,23 @@ $(document).ready(function(){
         $("nav ul li.index_7").addClass("chosen").siblings().removeClass("chosen");
     });
 
+    $("#un_4 .guide").hide();
+    $("#un_6 .guide").hide();
+    $("#un_9 .guide").hide();
+    $("#un_11 .guide").hide();
+
+    $("#un_3 .guide").bind("click",function(){
+        $("#un_4 .guide").show(600);
+    });
+    $("#un_5 .guide").bind("click",function(){
+        $("#un_6 .guide").show(600);
+    });
+    $("#un_8 .guide").bind("click",function(){
+        $("#un_9 .guide").show(600);
+    });
+    $("#un_10 .guide").bind("click",function(){
+        $("#un_11 .guide").show(600);
+    })
+
 
 });

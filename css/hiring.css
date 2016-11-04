@@ -1,11 +1,61 @@
-#index10 { position: relative; color: #fafafa; text-align: left; font-family: PingFangSC-Semibold; }
-#index10 .imgbox { width: 400px; height: 688px; background: #fff; }
-#index10 .content { width: 600px; height: 688px; position: absolute; top: 0px; left: 400px; padding-top: 14px; }
-#index10 .content .tip { width: 200px; height: 220px; float: left; position: relative; display: table-cell; }
-#index10 .content .tip span:nth-of-type(1) { font-size: 20px; position: absolute; left: 12px; font-weight: 600; top: 10px; }
-#index10 .content .tip span:nth-of-type(2) { font-size: 64px; opacity: 0.1; position: absolute; left: 10px; top: -36px; font-weight: 900; font-family: Arial-Black; }
-#index10 .content .tip>div { font-size: 12px; position: absolute; width: 180px; left: 10px; height: 150px; border-bottom: 1px solid #fff; border-top: 1px solid #fff; top: 42px; box-sizing: border-box; display: table-cell; vertical-align: middle; }
-#index10 .content .middle { margin-top: 30px; }
-#index10 .content .middle1 { margin-top: 50px; }
-#index10 .content .middle2 { margin-top: 10px; }
-#index10 .content .middle3 { margin-top: 2px; }
+/* CSS Document */
+html, body, div, span, object, iframe,h1, h2,
+h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn,
+em, img, ins,kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd,
+ol, ul, li,fieldset, form, label, legend,table, caption, tbody,
+tfoot,thead,tr, th, td,article, aside, canvas, details, figcaption,
+figure, footer, header, hgroup, menu, nav, section, summary,time, mark,
+audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    outline-style:none;/*FF浣跨敤*/
+}
+
+body {
+    line-height:1;
+    background: #000;
+}
+
+a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+
+}
+a:hover,a:focus{
+    text-decoration:none;
+    bblr:expression(this.onFocus=this.blur());
+    outline-style:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+#index { margin: 0 auto; width: 1300px; color: #fafafa; }
+#index .imgbox { width: 454px; height: 1059px; background: #eee; }
+#index .content { width: 816px; padding: 15px; }
+#index .imgbox,#index .content { float: left; }
+#index .content .tip { width: 270px; height: 300px; float: left; position: relative; }
+#index .content .tip span:nth-of-type(1) { position: absolute; font-family: PingFangSC-Semibold; font-size: 20px; color: #FAFAFA; letter-spacing: 0px; top: 35px; }
+#index .content .tip span:nth-of-type(2) { opacity: 0.2; font-family: Arial-Black; font-size: 64px; color: #FAFAFA; letter-spacing: 0px; position: absolute;left: 0px; }
+#index .content .tip>div { position: absolute; top: 80px; border-top: 1px solid #ccc; width: 220px; left: 5px; border-bottom: 1px solid #ccc; height: 177px; font-family: PingFangSC-Regular; font-size: 16px; color: #FAFAFA; letter-spacing: 0px; line-height: 1.2; }
+#index .content .tip>div .middle { padding-top: 50px; }
+#index .content .tip>div .middle2 { padding-top: 13px; }
+#index .content .tip>div .middle3 { padding-top: 5px; }
+#index .content .tip>div .middle1 { padding-top: 70px; }
+
+
+
