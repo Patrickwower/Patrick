@@ -45,7 +45,7 @@ input, select {
 }
 
 #index { margin: 0 auto; width: 1300px; color: #fafafa; }
-#index .imgbox { width: 454px; height: 1059px; background: #eee; overflow: hidden; }
+#index .imgbox { width: 454px; height: 1059px; overflow: hidden; }
 #index .content { width: 810px; padding: 15px; padding-left: 21px; }
 #index .imgbox,#index .content { float: left; }
 #index .content .tip { width: 270px; height: 300px; float: left; position: relative; }

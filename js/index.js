@@ -56,6 +56,9 @@ $(document).ready(function(){
         impressElement.goto(11);
     });
 
+    $("#icon").bind("click",function(){
+        impressElement.goto(0);
+    })
 
     $("#index5 .guide").bind("click",function(){
         $("nav ul li.index_4").addClass("chosen").siblings().removeClass("chosen");
@@ -95,6 +98,8 @@ $(document).ready(function(){
     $("#un_10 .guide").bind("click",function(){
         $("#un_11 .guide").show(600);
     })
+
+
 
 
 });

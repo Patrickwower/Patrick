@@ -129,5 +129,5 @@ $(document).ready(function(){
     },function(){
         $(this).css("opacity","1");
         $(".big3").hide(500);
-    })
+    });
 })
