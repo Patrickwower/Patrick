@@ -32,7 +32,7 @@ html {overflow-y: scroll;}
 #mainframe .intro { font-family: PingFangSC-Semibold; text-align: center; }
 #mainframe .intro p:nth-of-type(1) { opacity: 0.1; font-size: 32px; color: #FAFAFA; letter-spacing: 1px; line-height: 42px; }
 #mainframe .intro p:nth-of-type(2) { font-size: 44px; color: #FFD906; letter-spacing: 2.44px; margin-top: 20px; margin-bottom: 50px; }
-#mainframe .intro p:nth-of-type(3) { word-break: keep-all; font-size: 25.6px; color: #FFFFFF; letter-spacing: 0.67px; padding-bottom: 5px; border-bottom: 2px solid #fff; width: 222px; margin: 0 auto; }
+#mainframe .intro p:nth-of-type(3) { word-break: keep-all; text-align: center; font-size: 25.6px; color: #FFFFFF; letter-spacing: 0.67px; padding-bottom: 5px; border-bottom: 2px solid #fff; width: 235px; margin: 0 auto; }
 #mainframe .intro p:nth-of-type(4) { margin-top: 10px; }
 #mainframe .intro span.icon { font-size: 53.2px; color: #FFD906; letter-spacing: 0px; vertical-align: middle; }
 #mainframe .intro span.icon+span { font-size: 25.6px; color: #FFFFFF; letter-spacing: 0.67px; padding-bottom: 5px; border-bottom: 2px solid #fff; }
