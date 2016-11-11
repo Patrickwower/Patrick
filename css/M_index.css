@@ -1,0 +1,100 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#111; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+/*初始化CSS*/
+
+#mainframe .sec1 { font-family: PingFangSC-Semibold; text-align: center; }
+#mainframe .sec1 .title { font-size: 40px; color: #FFFFFF; letter-spacing: 0px; margin-top: -0px; margin-bottom: 6px; font-weight: 600; }
+#mainframe .sec1 .littitle { font-size: 12px; color: #FFD906; letter-spacing: 0.66px; margin-bottom: 15px; }
+#mainframe .sec1 .content { opacity: 0.1; font-size: 24px; color: #FAFAFA; letter-spacing: 1px; line-height: 32px; margin-bottom: 20px; }
+#mainframe .sec1 .mem { font-size: 10px; color: #FFFFFF; letter-spacing: 1px; }
+#mainframe .sec1 img { width: 150px; height: auto; margin-bottom: 40px; }
+
+#mainframe .index { font-family: PingFangSC-Semibold; text-align: center; }
+#mainframe .index p:nth-of-type(1) { font-size: 24px; color: #FAFAFA; letter-spacing: 0px; border-bottom: 1px solid #fafafa; width: 72px; margin: 0 auto; margin-bottom: 32px; padding-bottom: 10px; }
+#mainframe .index p:nth-of-type(2) { font-family: Copperplate-Bold; font-size: 36px; color: #FAFAFA; letter-spacing: 0px; margin-bottom: 12px; }
+#mainframe .index p:nth-of-type(3) { font-size: 12px; color: #FED806; letter-spacing: 1px; }
+#mainframe .index img { width: 30px; height: auto; margin-top: 200px; margin-bottom: 5px; }
+#mainframe .index p:nth-of-type(4) { font-size: 10px; color: #FAFAFA; letter-spacing: 1px; line-height: 18px; }
+
+#mainframe .intro { font-family: PingFangSC-Semibold; text-align: center; }
+#mainframe .intro p:nth-of-type(1) { opacity: 0.1; font-size: 32px; color: #FAFAFA; letter-spacing: 1px; line-height: 42px; }
+#mainframe .intro p:nth-of-type(2) { font-size: 44px; color: #FFD906; letter-spacing: 2.44px; margin-top: 20px; margin-bottom: 50px; }
+#mainframe .intro p:nth-of-type(3) { font-size: 25.6px; color: #FFFFFF; letter-spacing: 0.67px; padding-bottom: 5px; border-bottom: 2px solid #fff; width: 222px; margin: 0 auto; }
+#mainframe .intro p:nth-of-type(4) { margin-top: 10px; }
+#mainframe .intro span.icon { font-size: 53.2px; color: #FFD906; letter-spacing: 0px; vertical-align: middle; }
+#mainframe .intro span.icon+span { font-size: 25.6px; color: #FFFFFF; letter-spacing: 0.67px; padding-bottom: 5px; border-bottom: 2px solid #fff; }
+
+#mainframe .zone { font-family: PingFangSC-Semibold; text-align: center; }
+#mainframe .zone p:nth-of-type(1) { font-size: 36px; color: #FFFFFF; letter-spacing: 0px; margin-bottom: 8px; }
+#mainframe .zone p:nth-of-type(2) { font-size: 12px; color: #FFD906; letter-spacing: 0.66px; margin-bottom: 15px; }
+#mainframe .zone .imgbox { width: 320px; height: 166px; overflow: hidden; margin: 0 auto; margin-top: 15px; margin-bottom: 53px; }
+#mainframe .zone>div img { width: 100%; height: auto; }
+#mainframe .zone p:nth-of-type(3) { opacity: 0.1; font-size: 24px; color: #FFFFFF; letter-spacing: 1px; line-height: 32px; }
+#mainframe .zone p:nth-of-type(4) { font-size: 20px; color: #FFD906; letter-spacing: 1px; margin-bottom: 20px; }
+#mainframe .zone p:nth-of-type(5) { font-family: PingFangSC-Medium; font-size: 20px; color: #FFFFFF; letter-spacing: 1px; line-height: 25px; }
+
+#mainframe .back { font-family: PingFangSC-Semibold; }
+#mainframe .back p:nth-of-type(1) { font-size: 30px; color: #FFFFFF; letter-spacing: 0px; border-left: 10px solid #ffd906; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 55px; }
+#mainframe .back p:nth-of-type(2) { font-family: PingFangSC-Medium; font-size: 14px; color: #FFFFFF; letter-spacing: 1px; width: 320px; margin: 0 auto; line-height: 20px; }
+#mainframe .back p:nth-of-type(3) { font-size: 24px; color: #FFD906; letter-spacing: 1.71px; margin-top: 45px; width: 320px; margin: 45px auto; }
+
+#mainframe .together { font-family: PingFangSC-Semibold; }
+#mainframe .together p:nth-of-type(1) { font-size: 30px; color: #FFFFFF; letter-spacing: 0px; border-left: 10px solid #ffd906; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 24px; }
+#mainframe .together p:nth-of-type(2) { font-size: 24px; color: #FFFFFF; letter-spacing: 1px; width: 320px; margin: 0 auto; margin-bottom: 15px; }
+#mainframe .together p:nth-of-type(3) { font-family: PingFangSC-Medium; font-size: 12px; color: #FFFFFF; letter-spacing: 1px; width: 320px; margin: 0 auto; line-height: 18px; margin-bottom: 20px; }
+#mainframe .together .imgbox { width: 320px; height: 166px; overflow: hidden; margin: 0 auto; }
+#mainframe .together .imgbox img { width: 100%; height: auto; opacity: 0.5; }
+#mainframe .together p:nth-of-type(4) { font-size: 30px; color: #FFD906; letter-spacing: 0px; width: 320px; margin: 0 auto; margin-top: 40px; }
+#mainframe .together p:nth-of-type(5) { font-size: 12px; color: #FFFFFF; letter-spacing: 1px; width: 320px; margin: 0 auto; margin-top: 20px; }
+#mainframe .together .person { border-bottom: 2px solid #fff; padding-bottom: 4px; }
+
+#mainframe .contact { font-family: PingFangSC-Semibold; background: url("../img/back.png") no-repeat; background-size: 100%; background-position: 0 175px; position: relative; }
+#mainframe .contact p:nth-of-type(1) { font-size: 30px; color: #FFFFFF; letter-spacing: 0px; border-left: 10px solid #ffd906; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 24px; }
+#mainframe .contact p:nth-of-type(2) { background: #FFD906; width: 275px; height: 45px; line-height: 45px; font-size: 17px; color: #111111; letter-spacing: 1px; text-align: center; }
+#mainframe .contact p:nth-of-type(3) { background: #FFD906; font-size: 17px; color: #111111; letter-spacing: 1px; width: 95px; height: 45px; line-height: 45px; text-align: center; margin-top: 5px; }
+#mainframe .contact p:nth-of-type(4) { font-size: 24px; color: #FFD906; letter-spacing: 0px; margin-top: 240px; text-align: right; padding-right: 90px; }
+#mainframe .contact .email { margin-top: 20px; line-height: 20px; text-align: right; }
+#mainframe .contact .email a { font-size: 12px; color: #FFFFFF; letter-spacing: 1px; padding-right: 33px; }
+#mainframe .contact .email span { opacity: 0.6; font-family: PingFangSC-Light; font-size: 10px; color: #FFFFFF; letter-spacing: 1px; padding-right: 135px; }
+#mainframe .contact .location { opacity: 0.3; font-family: PingFangSC-Regular; font-size: 18px; color: #FFFFFF; letter-spacing: 7px; position:absolute; top: 410px; right: 85px; }
+
+#mainframe .member { font-family: PingFangSC-Semibold; }
+#mainframe .member p:nth-of-type(1) { font-size: 30px; color: #FFFFFF; letter-spacing: 0px; border-left: 10px solid #ffd906; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 30px; }
+#mainframe .member p:nth-of-type(2) { line-height: 18px; padding-bottom: 22px; border-bottom: 1px solid #333; width: 320px; margin: 0 auto; font-family: PingFangSC-Medium; font-size: 14px; color: #FFFFFF; letter-spacing: 0.93px; }
+#mainframe .member p:nth-of-type(3) { line-height: 18px; width: 320px; margin: 0 auto; margin-top: 20px; font-family: PingFangSC-Medium; font-size: 14px; color: #FFFFFF; letter-spacing: 1.16px; }
+#mainframe .member p:nth-of-type(4) { width: 320px; margin: 0 auto; margin-top: 15px; font-size: 20px; color: #FFD906; letter-spacing: 1.66px; }
+#mainframe .member p:nth-of-type(5) { line-height: 18px; width: 320px; margin: 0 auto; margin-top: 15px; font-family: PingFangSC-Medium; font-size: 14px; color: #FFFFFF; letter-spacing: 1.16px; }
+
+
+@media screen and (min-width: 320px) {
+    #mainframe .sec1 .content { font-size: 22px; }
+    #mainframe .contact .location { top: 370px; right: 72px; }
+}
+@media screen and (min-width: 360px) {
+    #mainframe .contact .location { top: 395px; right: 79px; }
+}
+@media screen and (min-width: 411px) {
+    #mainframe .contact .location { top: 420px; right: 85px; }
+}
+@media screen and (min-width: 411px) {
+    #mainframe .contact .location { right: 95px; }
+}
+@media screen and (max-width: 768px) {
+    body { font-size: 20px; }
+    #mainframe .contact .location { top: 500px; right: 200px; }
+    #mainframe .zone .imgbox { width: 640px; height: 430px; }
+    #mainframe .together .imgbox { width: 640px; height: 430px; }
+}
