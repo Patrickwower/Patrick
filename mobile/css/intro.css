@@ -1,0 +1,23 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#111; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+/*初始化CSS*/
+
+#frame { background: #111; max-width: 768px; width: 100%; padding-top: 60px; }
+#frame p,#frame div,#frame a { display: block; width: 320px; margin: 0 auto; }
+#frame p { font-family: PingFangSC-Semibold; font-size: 24px; color: #FFFFFF; letter-spacing: 0px; margin-bottom: 15px; }
+#frame div { font-family: PingFangSC-Medium; font-size: 14px; color: #FFFFFF; letter-spacing: 1px; padding-bottom: 15px; border-bottom: 1px solid #666; margin-bottom: 20px; line-height: 18px; }
+#frame a:nth-of-type(1) { font-family: PingFangSC-Semibold; font-size: 14px; color: #FFFFFF; letter-spacing: 1px; line-height: 22px; margin-top: 30px; }
+#frame a:nth-of-type(2) { font-family: PingFangSC-Semibold; font-size: 16px; color: #FFD906; letter-spacing: 0px; margin-top: 30px; }
